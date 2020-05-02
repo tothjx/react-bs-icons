@@ -1,5 +1,75 @@
 @import "./vars.scss";
 
-.App {
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	padding: 15px;
+}
+
+.header {
+	color: black;
+	background-color: green;
+}
+
+#word {
+	font-size: 12pt;
+	text-transform: lowercase;
+	width: 310px;
+	padding: 15px;
+	margin: 0px 0px 15px 0px;
+	border: 2px solid silver;
+	border-radius: $radius-small;
+}
+
+#word:focus,
+#word:active,
+#word:hover,
+.icon-widget:hover {
+	outline: none;
+	background-color: #d0ffd0;
+	border-color: green;
+}
+
+App {
+	background-color: #405060;
+	margin: 0px;
+	padding: 0px;
 	text-align: left;
+
+	.icons {
+		padding: 10px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+.icon-widget {
+	display: inline-block;
+	font-size: 8pt;
+	padding: 15px 0px;
+	margin: 0px 15px 15px 0px;
+	border: 2px solid silver;
+	border-radius: $radius-small;
+}
+
+.icon-widget:hover {
+	cursor: pointer;
+}
+
+.icon-widget-img,
+.icon-widget-foot {
+	display: block;
+	text-align: center;
+}
+
+.icon-widget-img {
+	padding: 0px 40px;
+}
+
+.icon-widget-foot {
+	font-family: $font-main;
+	font-size: 8pt;
 }
