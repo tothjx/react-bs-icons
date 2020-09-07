@@ -1,4 +1,5 @@
 // app config
+export const ICONS_URL			= 'https://github.com/twbs/icons';
 export const APP_NAME			= 'icons';
 export const APP_VERSION		= '0.9';
 export const APP_EMAIL			= 'info@tothj.com';
