@@ -10,7 +10,7 @@ class App extends React.Component {
 		this.timeout = 0;
 		this.state = {
 			icons: icons,
-			filteredIcons: [],
+			filteredIcons: icons,
 			word: ''
 		}
 	}
@@ -36,6 +36,8 @@ class App extends React.Component {
 		} else {
 			this.setState({filteredIcons: this.state.icons});
 		}
+
+		console.log('number of icons: ', this.state.filteredIcons.length);
 	}
 
 	changeWord = (e) => {
