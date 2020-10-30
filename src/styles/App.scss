@@ -33,6 +33,20 @@ body {
 	border-color: green;
 }
 
+.filter-counter {
+	position: absolute;
+	top: 12px;
+	left: 350px;
+	width: 320px;
+	height: 40px;
+	padding: 0px;
+	font-family: 'Arial Black', Helvetica, sans-serif;
+	font-size: 32pt;
+	font-weight: bold;
+	color: gray;
+	opacity: 0.25;
+}
+
 App {
 	background-color: #405060;
 	margin: 0px;

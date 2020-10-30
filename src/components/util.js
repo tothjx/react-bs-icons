@@ -11,7 +11,7 @@ export const copyInnerHtmlToClipboard = (id) => {
 }
 
 export const copyTextToClipboard = (text) => {
-	console.log(text);
+	console.log('"' + text + '" copied to the clipboard');
 	var temp = document.createElement('input');
 	document.body.appendChild(temp);
 	temp.setAttribute("id", "temp_id");

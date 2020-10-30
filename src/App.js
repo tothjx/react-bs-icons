@@ -69,6 +69,10 @@ class App extends React.Component {
 						/>
 					</div>
 					
+					<div className='filter-counter'>
+						{this.state.filteredIcons.length}
+					</div>
+
 					<div className='icons'>
 						{this.state.filteredIcons.map((item) => (
 							<IconWidget
