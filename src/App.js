@@ -81,6 +81,11 @@ class App extends React.Component {
 							/>
 						))}
 					</div>
+					<div className='footer'>
+						<b>icons' version:</b> {cfg.BS_ICON_VERSION}&nbsp;&nbsp;&raquo;&nbsp;&nbsp;
+						<a href="https://github.com/twbs/icons">https://github.com/twbs/icons</a><br/>
+						<b>application's version:</b> {cfg.APP_VERSION}
+					</div>
 				</div>
 			</React.Fragment>
 		);

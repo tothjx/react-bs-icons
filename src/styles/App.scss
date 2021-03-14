@@ -87,3 +87,23 @@ App {
 	font-family: $font-main;
 	font-size: 8pt;
 }
+
+.footer {
+	display: block;
+	max-width: 280px;
+	font-family: $font-main;
+	font-size: 8pt;
+	padding: 15px;
+	margin: 15px 0px;
+	border: none;
+	border-radius: $radius-small;
+	background-color: #f0f0f0;
+	line-height: 150%;
+
+	a:link,
+	a:visited,
+	a:hover {
+		text-decoration: none;
+		color: orangered;
+	}
+}
